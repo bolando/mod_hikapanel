@@ -2,6 +2,7 @@
 // No direct access
 defined('_JEXEC') or die; 
 
+$doc =& JFactory::getDocument();
 $doc->addStyleSheet('modules/mod_hikapanel/css/style.css');?>
  <div id="cpanel">
 <div class="icon-wrapper">

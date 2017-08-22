@@ -1,6 +1,6 @@
 .icon-wrapper {
-    width: auto;
-    height: auto;
+    width: auto !important;
+    height: auto !important;
     display: block;
 }
 .icon {

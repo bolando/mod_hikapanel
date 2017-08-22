@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.7.5" client="administrator" method="upgrade">
+    <name>Ikonki dla Hikashop</name>
+    <author>Andrzej Bolewski</author>
+	<authorEmail>biuro@solmedia.pl</authorEmail>
+	<authorUrl>www.solmedia.pl</authorUrl>
+	<creationDate>sierpień 2017</creationDate>
+	<copyright>OpenSource</copyright>
+    <version>1.0</version>
+    <description>Ikonki dla HikaShop</description>
+	
+    <files>
+        <filename>mod_hikapanel.xml</filename>
+        <filename module="mod_hikapanel">mod_hikapanel.php</filename>
+        <filename>index.html</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+		<folder>css</folder>
+    </files>
+    
+</extension>

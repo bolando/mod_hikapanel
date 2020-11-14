@@ -17,5 +17,19 @@
         <filename>tmpl/index.html</filename>
 		<folder>css</folder>
     </files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field 	name="show_characteristic" type="radio" label="Czy pokazać charakterystykę" default="1">
+					<option value="1">TAK</option>
+					<option value="0">NIE</option>
+				</field>
+				<field 	name="show_customfields" type="radio" label="Czy pokazać custom fields" default="1">
+					<option value="1">TAK</option>
+					<option value="0">NIE</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
     
 </extension>

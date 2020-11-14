@@ -20,12 +20,12 @@ $doc->addStyleSheet('modules/mod_hikapanel/css/style.css');?>
    <div class="icon-wrapper">
       <div class="icon"><a href="index.php?option=com_hikashop&amp;ctrl=discount"><span class="hikaicon icon-48-discount"></span><span>Rabaty</span></a></div>
    </div>
-   <?php if ($params->get('show_characteristic') == '1':?>
+   <?php if ($params->get('show_characteristic') == '1'):?>
    <div class="icon-wrapper">
       <div class="icon"><a href="index.php?option=com_hikashop&ctrl=characteristic"><span class="hikaicon icon-48-view"></span><span>Kolory i rozmiar</span></a></div>
    </div>
    <?php endif;?>
-   <?php if ($params->get('show_customfields') == '1':?>
+   <?php if ($params->get('show_customfields') == '1'):?>
    <div class="icon-wrapper">
       <div class="icon">
          <a href="index.php?option=com_hikashop&ctrl=field" >

@@ -24,10 +24,12 @@
 					<option value="1">TAK</option>
 					<option value="0">NIE</option>
 				</field>
+				<field 	name="name_characteristic" type="text" label="Podpis dla charakterystyki" default="Charakterystyka" required />
 				<field 	name="show_customfields" type="radio" label="Czy pokazać custom fields" default="1">
 					<option value="1">TAK</option>
 					<option value="0">NIE</option>
 				</field>
+				<field 	name="name_customfields" type="text" label="Podpis dla custom fields" default="Pola dodatkowe" required />
 			</fieldset>
 		</fields>
 	</config>

@@ -3,7 +3,7 @@
 defined('_JEXEC') or die; 
 
 $doc =& JFactory::getDocument();
-$doc->addStyleSheet('media/com_hikashop/css/font-awesome.css?v=5.2.0');
+$doc->addStyleSheet('../media/com_hikashop/css/font-awesome.css?v=5.2.0');
 $doc->addStyleSheet('modules/mod_hikapanel/css/style.css');
 ?>
 <div id="cpanel" class="hikapanel">
